@@ -1,5 +1,5 @@
 Face Recognition Door Lock
-A camera connected to a Raspberypi scans the user's face. It uploads the image to an API (Amazon Rekognition) which uses facial recognition to determine whether to open the lock. If the open response is sent back the arduino toggles a motor which opens the lock.
+A camera connected to a Raspberypi captures the user's face. It uploads the image to an API (Amazon Rekognition) which uses facial recognition to determine whether to open the lock. If the open response is sent back the arduino toggles a motor which opens the lock.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
