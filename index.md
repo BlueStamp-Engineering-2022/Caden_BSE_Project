@@ -5,7 +5,8 @@ A camera connected to a Raspberypi captures the user's face. It uploads the imag
 |:--:|:--:|:--:|:--:|
 | Caden Wei | Junipero Serra Highschool | Mechanical Engineering | Incoming Sophmore
 
-![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
+![IMG_5549](https://user-images.githubusercontent.com/86168345/174658475-f27000dc-83d3-4028-bc24-160bf40c370a.JPG)
+
   
 # Final Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
@@ -19,9 +20,10 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # First Milestone
   
 
-My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my tv. The heatsinks, the sd card, and the controller were all added to ensure that the Raspberry Pi was working. Instead of the Raspberry Pi Os software, I had to first download a different software called Retro Pie. With Retro Pie, I needed to download an Imager for Raspberry Pi. Raspberry Pi Imager automatically downloads a list of the latest versions of Raspbian supported by the Raspberry Pi. Raspbian is the typical Raspberry Pi Os software, the one I needed on the Raspberry Pi was Retro Pi. With the included SD card, I plugged in the SD into my computer and launched the Imager. The imager allowed me to set the Operating System to Retro Pi instead of Raspbian onto the SD card. With the OS imaged onto the SD, I plugged the SD card back into the Raspberry Pi and rebooted the system and Retro Bi booted up.
+My first milestone was being able to process images using amazon's rekognition API. This meant I had to set up my raspberry pi. I downloaded the OS on a sd card and set up the Pi on a monitor. I enabled SSH and grabbed the Pi's IP adress. I could then run the Raspi headless through the command prompt on my computer. Then I had the connect the Raspi to the API. I first set up an AWS (Amazon web services) account. I configured the CLI to be able to access my AWS console from my raspi which is being run headless on my copmuter. I then had to give my Raspi custom permissions to acess the account.
 
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone"){:target="_blank" rel="noopener"}
+[![Thumbnail1](https://user-images.githubusercontent.com/86168345/174659342-bbe59611-2fd2-44f0-a97b-827f0d77fddb.jpg)
+](https://www.youtube.com/watch?v=KoR6Z2y8akA&ab_channel=BlueStampEng)
 
 # Starter Project
 
