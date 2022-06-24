@@ -19,6 +19,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 [![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
 # First Milestone
   
+![image](https://user-images.githubusercontent.com/86168345/175608678-4d140eff-fca2-440a-9540-0eb22442cb78.png)
 
 My first milestone was being able to process images using Amazon's Rekognition API. This meant I had to set up my raspberry pi. I downloaded the OS on a SD card and set up the Pi on a monitor. I enabled SSH and grabbed the Pi's IP adress. I could then run the Raspi headless through the command prompt on my computer. Then I had the connect the Raspi to the API. I first set up an AWS (Amazon web services) account. I configured the CLI to be able to access my AWS console from my raspi which is being run headless on my laptop. I then had to give my Raspi custom permissions to access the account. I then needed to create a lambda function to link Alexa skills which allows my lock to interact with Alexa.
 
