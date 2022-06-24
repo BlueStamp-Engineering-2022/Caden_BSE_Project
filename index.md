@@ -20,7 +20,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # First Milestone
   
 
-My first milestone was being able to process images using amazon's rekognition API. This meant I had to set up my raspberry pi. I downloaded the OS on a sd card and set up the Pi on a monitor. I enabled SSH and grabbed the Pi's IP adress. I could then run the Raspi headless through the command prompt on my computer. Then I had the connect the Raspi to the API. I first set up an AWS (Amazon web services) account. I configured the CLI to be able to access my AWS console from my raspi which is being run headless on my copmuter. I then had to give my Raspi custom permissions to acess the account.
+My first milestone was being able to process images using Amazon's Rekognition API. This meant I had to set up my raspberry pi. I downloaded the OS on a SD card and set up the Pi on a monitor. I enabled SSH and grabbed the Pi's IP adress. I could then run the Raspi headless through the command prompt on my computer. Then I had the connect the Raspi to the API. I first set up an AWS (Amazon web services) account. I configured the CLI to be able to access my AWS console from my raspi which is being run headless on my laptop. I then had to give my Raspi custom permissions to access the account. I then needed to create a lambda function to link Alexa skills which allows my lock to interact with Alexa.
 
 [![Thumbnail1](https://user-images.githubusercontent.com/86168345/174659342-bbe59611-2fd2-44f0-a97b-827f0d77fddb.jpg)
 ](https://www.youtube.com/watch?v=KoR6Z2y8akA&ab_channel=BlueStampEng)
