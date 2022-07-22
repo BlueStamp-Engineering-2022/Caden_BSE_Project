@@ -3,13 +3,13 @@ A camera connected to a Raspberypi captures the user's face. It uploads the imag
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Caden Wei | Junipero Serra Highschool | Mechanical Engineering | Incoming Sophmore
+| Caden | Junipero Serra Highschool | Mechanical Engineering | Incoming Sophmore
 
-![IMG_5549](https://user-images.githubusercontent.com/86168345/174658475-f27000dc-83d3-4028-bc24-160bf40c370a.JPG)
+[![milestone3](https://user-images.githubusercontent.com/86168345/180489093-7b29940c-cd36-4a6b-9c48-71a261431532.jpg)]https://www.youtube.com/watch?v=hZv6VcnZmms&ab_channel=BlueStampEng
 
   
 # Final Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
+My final milestone was the improve the user interface with my project. At first I just added a button which would allow someone from inside to open the lock, since there was no function for leaving (and thus violating many fire safety regulations). This was straight forward, I just assigned another button using the RPi GPIO module and then copied the open function directly, skipping the face id part of the opening process. I then decide to build an entire model door for my lock. I used pieces of scrap wood from other projects to build a frame and door. I had to learn fusion 360 to create some custom 3D mounts for my raspi as well as a blocker for the bolt.
 
 [![milestone2](https://user-images.githubusercontent.com/86168345/180486909-497ad9bc-947a-477a-96bc-8ce7a927906d.jpg)](https://www.youtube.com/watch?v=sduC3FaY9u0&ab_channel=BlueStampEng)
 
