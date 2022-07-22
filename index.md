@@ -21,6 +21,7 @@ My second milestone was finishing the functionality of my lock. I first SSH my R
   
 ![image](https://user-images.githubusercontent.com/86168345/175608678-4d140eff-fca2-440a-9540-0eb22442cb78.png)
 
+# First Milestone
 My first milestone was to complete the mechanical assembly of the lock and enable the arduino to open and close it. I first had to put together the lock. Then I downloaded the Arduino IDE on my laptop. I then connected the servo motor female jumper cable to a male - male jumper cable. I connected the motor to the 5 volt, ground, and pin 9 digital IO. I then programmed the arduino in C++ to rotate the servo motor upon receiving a string.
 
 [![Thumbnail1](https://user-images.githubusercontent.com/86168345/174659342-bbe59611-2fd2-44f0-a97b-827f0d77fddb.jpg)
