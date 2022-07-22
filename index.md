@@ -1,4 +1,4 @@
-Face Recognition Door Lock
+# Face Recognition Door Lock
 A camera connected to a Raspberypi captures the user's face. It uploads the image to an API (Amazon Rekognition) which uses facial recognition to determine whether to open the lock. If the open response is sent back the arduino toggles a motor which opens the lock.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -11,16 +11,16 @@ A camera connected to a Raspberypi captures the user's face. It uploads the imag
 # Final Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
 
-[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
+[![milestone2](https://user-images.githubusercontent.com/86168345/180486909-497ad9bc-947a-477a-96bc-8ce7a927906d.jpg)](https://www.youtube.com/watch?v=sduC3FaY9u0&ab_channel=BlueStampEng)
 
 # Second Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
+My second milestone was finishing the functionality of my lock. I first SSH my Raspberry Pi's terminal to my laptop's command prompt. I could then use the nano text editor to write python code onto the raspi. On my laptop I set up AWS, or amazon web services. I create a s3 bucket, or a storage file on the cloud aswell as a dynamodb table. I then sent photos of my face to the table. On the Raspi, I connected a button the GPIO. I then programmed it so that when I pressed the button it would execute button_callback(), a function. Under this function are a series of more functions which take a photo with the camera module and sends the image to the s3 bucket. Amazon's Rekognition API would compare the image and send a response. If the face matches a "open" string is sent to the arduino. If not, an email is sent to me with an imagine attached of the unknown face.
 
 [![Thumbnail2](https://user-images.githubusercontent.com/86168345/178777770-80836957-bef0-45f8-8927-e1482bdc6598.jpg)](https://www.youtube.com/watch?v=VKctLer_IKs&ab_channel=BlueStampEng)
   
 ![image](https://user-images.githubusercontent.com/86168345/175608678-4d140eff-fca2-440a-9540-0eb22442cb78.png)
 
-My first milestone was being able to process images using Amazon's Rekognition API. This meant I had to set up my raspberry pi. I downloaded the OS on a SD card and set up the Pi on a monitor. I enabled SSH and grabbed the Pi's IP adress. I could then run the Raspi headless through the command prompt on my computer. Then I had the connect the Raspi to the API. I first set up an AWS (Amazon web services) account. I configured the CLI to be able to access my AWS console from my raspi which is being run headless on my laptop. I then had to give my Raspi custom permissions to access the account. I then needed to create a lambda function to link Alexa skills which allows my lock to interact with Alexa.
+My first milestone was to complete the mechanical assembly of the lock and enable the arduino to open and close it. I first had to put together the lock. Then I downloaded the Arduino IDE on my laptop. I then connected the servo motor female jumper cable to a male - male jumper cable. I connected the motor to the 5 volt, ground, and pin 9 digital IO. I then programmed the arduino in C++ to rotate the servo motor upon receiving a string.
 
 [![Thumbnail1](https://user-images.githubusercontent.com/86168345/174659342-bbe59611-2fd2-44f0-a97b-827f0d77fddb.jpg)
 ](https://www.youtube.com/watch?v=KoR6Z2y8akA&ab_channel=BlueStampEng)
