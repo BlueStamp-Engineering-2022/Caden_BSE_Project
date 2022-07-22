@@ -5,7 +5,7 @@ A camera connected to a Raspberypi captures the user's face. It uploads the imag
 |:--:|:--:|:--:|:--:|
 | Caden | Junipero Serra Highschool | Mechanical Engineering | Incoming Sophmore
 
-[![milestone3](https://user-images.githubusercontent.com/86168345/180489093-7b29940c-cd36-4a6b-9c48-71a261431532.jpg)]https://www.youtube.com/watch?v=hZv6VcnZmms&ab_channel=BlueStampEng
+[![milestone3](https://user-images.githubusercontent.com/86168345/180489093-7b29940c-cd36-4a6b-9c48-71a261431532.jpg)](https://www.youtube.com/watch?v=hZv6VcnZmms&ab_channel=BlueStampEng)
 
   
 # Final Milestone
